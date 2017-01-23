@@ -542,7 +542,7 @@
 				ORGANIZATIONNAME = "Dot Dot Software Inc.";
 				TargetAttributes = {
 					46330F9518E2964100E5C7EC = {
-						DevelopmentTeam = 5B2VH4PD78;
+						DevelopmentTeam = 7RYWC3D7HS;
 					};
 				};
 			};
@@ -688,7 +688,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabien Warniez (CP79F94PHA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -728,7 +728,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fabien Warniez (5B2VH4PD78)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -761,7 +761,7 @@
 					"\"${PROJECT_DIR}/Libs\"/**",
 					"$(PROJECT_DIR)/Libs/Flurry",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.dotdotsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = github.mrichter.Vie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -786,7 +786,7 @@
 					"\"${PROJECT_DIR}/Libs\"/**",
 					"$(PROJECT_DIR)/Libs/Flurry",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.dotdotsoftware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = github.mrichter.Vie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
