@@ -25,7 +25,6 @@
 		46DFD8F91ABFD39000AD8E43 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46DFD8FB1ABFD39000AD8E43 /* Localizable.strings */; };
 		5F29805519B29BB3006C4C91 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F29805319B29BB3006C4C91 /* DataModel.xcdatamodeld */; };
 		5F29805819B29ED8006C4C91 /* FWSavedGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F29805719B29ED8006C4C91 /* FWSavedGameModel.m */; };
-		5F3EF7C71CDA87F500B6DEA6 /* libFlurry_7.6.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3EF7C61CDA87F500B6DEA6 /* libFlurry_7.6.0.a */; };
 		5FB4510F19B542EC0040F524 /* FWGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4510D19B542EC0040F524 /* FWGameViewController.xib */; };
 		5FF3D86819B29AEB00F97192 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF3D86719B29AEB00F97192 /* CoreData.framework */; };
 		A6BD8044BFE801A0B7B5B657 /* FWAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD83F1A46518921715C6A8 /* FWAboutViewController.xib */; };
@@ -37,7 +36,6 @@
 		A6BD819D6ABFEAFE5507AA6B /* FWQuickPlayMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8371513E20C29A91C1C4 /* FWQuickPlayMenuViewController.m */; };
 		A6BD827814FB187EE4F05227 /* FWB3S23.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8D7485D6463088A1500F /* FWB3S23.m */; };
 		A6BD827A3B45D34D4E4F1AD2 /* FWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81239C5465908CDDAA83 /* FWGameViewController.m */; };
-		A6BD827ADCCC5BBB40EF56AF /* FWFlurry.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8FA17C9A803F716E332D /* FWFlurry.m */; };
 		A6BD828CD6447FA72D079651 /* FWPatternPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD878A901EAAF0A2924183 /* FWPatternPickerViewController.m */; };
 		A6BD82E05F8AA77C187761BD /* FWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81BEE06639BB968E11BC /* FWTextField.m */; };
 		A6BD83CCA3F3D88E36020196 /* FWBoardSizeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8EEE1A070EFC4A7E8FA7 /* FWBoardSizeModel.m */; };
@@ -107,8 +105,6 @@
 		5F29805419B29BB3006C4C91 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		5F29805619B29ED8006C4C91 /* FWSavedGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWSavedGameModel.h; sourceTree = "<group>"; };
 		5F29805719B29ED8006C4C91 /* FWSavedGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWSavedGameModel.m; sourceTree = "<group>"; };
-		5F3EF7C61CDA87F500B6DEA6 /* libFlurry_7.6.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.6.0.a; sourceTree = "<group>"; };
-		5F3EF7C81CDA881400B6DEA6 /* Flurry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		5FB4510D19B542EC0040F524 /* FWGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FWGameViewController.xib; sourceTree = "<group>"; };
 		5FF3D86719B29AEB00F97192 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A6BD808AFF54817340C0A620 /* FWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMainViewController.h; sourceTree = "<group>"; };
@@ -172,9 +168,7 @@
 		A6BD8EEE1A070EFC4A7E8FA7 /* FWBoardSizeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBoardSizeModel.m; sourceTree = "<group>"; };
 		A6BD8F008B945759E90FEF5C /* FWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWMainViewController.m; sourceTree = "<group>"; };
 		A6BD8F649E802D2BEBAACD84 /* FWSavedGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWSavedGameManager.h; sourceTree = "<group>"; };
-		A6BD8F8344AC7A627B9D8CDE /* FWFlurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWFlurry.h; sourceTree = "<group>"; };
 		A6BD8F9D674CEC3A48FDCFC4 /* FWSavedGamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWSavedGamePickerViewController.h; sourceTree = "<group>"; };
-		A6BD8FA17C9A803F716E332D /* FWFlurry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWFlurry.m; sourceTree = "<group>"; };
 		A6BD8FB065F12CE98CAFE2ED /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		A6BD8FBF87791C0CA1B66517 /* FWPatternManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWPatternManager.h; sourceTree = "<group>"; };
 		A6BD8FC14DFAEF94530D71C9 /* FWQuickPlayMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWQuickPlayMenuViewController.h; sourceTree = "<group>"; };
@@ -219,7 +213,6 @@
 				468562E11AF1CA7C00DC6B7C /* Security.framework in Frameworks */,
 				468562DF1AF1CA7300DC6B7C /* SystemConfiguration.framework in Frameworks */,
 				5FF3D86819B29AEB00F97192 /* CoreData.framework in Frameworks */,
-				5F3EF7C71CDA87F500B6DEA6 /* libFlurry_7.6.0.a in Frameworks */,
 				46330F9C18E2964100E5C7EC /* CoreGraphics.framework in Frameworks */,
 				46330F9E18E2964100E5C7EC /* UIKit.framework in Frameworks */,
 				46330F9A18E2964100E5C7EC /* Foundation.framework in Frameworks */,
@@ -235,7 +228,6 @@
 				46330F9F18E2964100E5C7EC /* Vie */,
 				46330F9818E2964100E5C7EC /* Frameworks */,
 				46330F9718E2964100E5C7EC /* Products */,
-				A6BD82678DE8F1D6999027D2 /* Libs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -273,8 +265,6 @@
 				A6BD88C89AEEA4B5BF5737BA /* Categories */,
 				B39354A54140E1EC0816A136 /* Resources */,
 				5F29805319B29BB3006C4C91 /* DataModel.xcdatamodeld */,
-				A6BD8FA17C9A803F716E332D /* FWFlurry.m */,
-				A6BD8F8344AC7A627B9D8CDE /* FWFlurry.h */,
 			);
 			path = Vie;
 			sourceTree = "<group>";
@@ -339,23 +329,6 @@
 				A6BD8FB065F12CE98CAFE2ED /* style.css */,
 			);
 			path = HTML;
-			sourceTree = "<group>";
-		};
-		A6BD8169B025E105093F2BCD /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				5F3EF7C81CDA881400B6DEA6 /* Flurry.h */,
-				5F3EF7C61CDA87F500B6DEA6 /* libFlurry_7.6.0.a */,
-			);
-			path = Flurry;
-			sourceTree = "<group>";
-		};
-		A6BD82678DE8F1D6999027D2 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				A6BD8169B025E105093F2BCD /* Flurry */,
-			);
-			path = Libs;
 			sourceTree = "<group>";
 		};
 		A6BD84DC839C08995F3571F3 /* Menu */ = {
@@ -643,7 +616,6 @@
 				A6BD84194B78BA4714C0B77A /* FWAboutViewController.m in Sources */,
 				A6BD8ADD381D2DD448526568 /* FWSavedGamePickerViewController.m in Sources */,
 				A6BD828CD6447FA72D079651 /* FWPatternPickerViewController.m in Sources */,
-				A6BD827ADCCC5BBB40EF56AF /* FWFlurry.m in Sources */,
 				A6BD827814FB187EE4F05227 /* FWB3S23.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -757,10 +729,7 @@
 				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
 				INFOPLIST_FILE = "Vie/Vie-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"\"${PROJECT_DIR}/Libs\"/**",
-					"$(PROJECT_DIR)/Libs/Flurry",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = github.mrichter.Vie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -782,10 +751,7 @@
 				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
 				INFOPLIST_FILE = "Vie/Vie-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"\"${PROJECT_DIR}/Libs\"/**",
-					"$(PROJECT_DIR)/Libs/Flurry",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = github.mrichter.Vie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

@@ -165,8 +165,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
 
     [self.gameViewController.view slideTo:self.view.bounds duration:0.3f delay:0.0f completion:nil];
     self.isQuickGameVisible = YES;
-    
-    [FWFlurry logEvent:@"game_board" timed:YES];
 }
 
 - (void)hideQuickGame
@@ -180,8 +178,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
                                    [self.gameViewController removeFromParentViewController];
                                }];
     self.isQuickGameVisible = NO;
-    
-    [FWFlurry endTimedEvent:@"game_board" withParameters:nil];
 }
 
 - (void)showQuickPlayMenu
@@ -199,9 +195,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
 
     [self.quickPlayMenuController.view slideTo:self.view.bounds duration:0.3f delay:0.0f completion:nil];
     self.isQuickGameMenuVisible = YES;
-
-    [FWFlurry endTimedEvent:@"game_board" withParameters:nil];
-    [FWFlurry logEvent:@"game_menu" timed:YES];
 }
 
 - (void)hideQuickPlayMenu
@@ -215,9 +208,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
                                    [self.quickPlayMenuController removeFromParentViewController];
                                }];
     self.isQuickGameMenuVisible = NO;
-
-    [FWFlurry endTimedEvent:@"game_menu" withParameters:nil];
-    [FWFlurry logEvent:@"game_board" timed:YES];
 }
 
 - (void)showPatternPicker
@@ -240,8 +230,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
 
     [self.patternPickerViewController.view slideTo:self.view.bounds duration:0.3f delay:0.0f completion:nil];
     self.isPatternPickerVisible = YES;
-
-    [FWFlurry logEvent:@"patterns_page" timed:YES];
 }
 
 - (void)hidePatternPicker
@@ -255,8 +243,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
                                             [self.patternPickerViewController removeFromParentViewController];
                                         }];
     self.isPatternPickerVisible = NO;
-
-    [FWFlurry endTimedEvent:@"patterns_page" withParameters:nil];
 }
 
 - (void)showSavedGamePicker
@@ -278,8 +264,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
 
     [self.savedGamePickerViewController.view slideTo:self.view.bounds duration:0.3f delay:0.0f completion:nil];
     self.isSavedGamePickerVisible = YES;
-    
-    [FWFlurry logEvent:@"saved_games_page" timed:YES];
 }
 
 - (void)hideSavedGamePicker
@@ -293,8 +277,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
                                             [self.savedGamePickerViewController removeFromParentViewController];
                                         }];
     self.isSavedGamePickerVisible = NO;
-
-    [FWFlurry endTimedEvent:@"saved_games_page" withParameters:nil];
 }
 
 - (void)showAbout
@@ -313,8 +295,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
 
     [self.aboutViewController.view slideTo:self.view.bounds duration:0.3f delay:0.0f completion:nil];
     self.isAboutVisible = YES;
-
-    [FWFlurry logEvent:@"about_page" timed:YES];
 }
 
 - (void)hideAbout
@@ -329,8 +309,6 @@ static CGFloat const kFWGameViewControllerCellBorderWidth = 1.0f;
                                             self.aboutViewController = nil;
                                         }];
     self.isAboutVisible = NO;
-
-    [FWFlurry endTimedEvent:@"about_page" withParameters:nil];
 }
 
 #pragma mark - FWMainMenuViewControllerDelegate
